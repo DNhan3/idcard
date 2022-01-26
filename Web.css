@@ -1,10 +1,28 @@
+@font-face {
+    font-family: link;
+    src: url(jpeg/hlblong.ttf);
+}
+
+html {
+    padding: 0;
+    border: 0;
+    margin-bottom: -10%;
+}
+
+body {
+    background-color: black;
+}
+
 span {
     font-weight: bold;
     font-size: 23px;
+    color: white;
 }
 
 .center {
     text-align: center;
+    margin-top: -81.1%;
+    background-color: black;
 }
 
 .link {
@@ -30,28 +48,54 @@ span {
 }
 
 .block {
-    background-color: rgba(249, 249, 249, 255);
     margin: 20px auto;
     padding: 30px 20px 10px;
-    box-shadow: 1px 1px 5px gray;
     width: 60%;
-    border-radius: 5px;
 }
 
 #nhan {
-    background-image: url("https://scontent.fdad3-3.fna.fbcdn.net/v/t39.30808-6/218325715_965654857553387_7752412335105348165_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=s9V64G5g0CMAX8OsqNK&tn=6ocPK-CExaT5932I&_nc_ht=scontent.fdad3-3.fna&oh=00_AT8ILQznBes9Se8Josf3So2LhOiauIq8mCN67hrfMqe14g&oe=61EB4DEE");
+    background-size: cover;
+    background-image: url("jpeg//476c8ef774acda1282b4b383efa7e359.png");
+    background-position-y: 0px;
+    background-position-x: 0px;
 }
 
 #call {
-    background-image: url("https://thumbs.dreamstime.com/b/phone-call-icon-isolated-white-background-phone-call-icon-trendy-design-style-web-site-mobile-app-phone-call-vector-182083251.jpg");
+    background-image: url("jpeg//cd5010c77936156027d1c6ddcf7d3016.png");
+    background-size: cover;
 }
 
 #email {
-    background-image: url("https://cdn.iconscout.com/icon/free/png-256/email-2091034-1767507.png");
+    background-image: url("jpeg//f6cabd7b5073da89ca538f6646522f6d.png");
+    background-size: cover;
 }
 
-.large {
-    display: none;
+.header-background {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -20;
+    position: absolute fixed;
+    object-fit: cover;
+}
+
+#right {
+    margin-left: 50%;
+    width: 50%
+}
+
+#left {
+    width: 50%;
+}
+
+a {
+    color: rgb(0, 173, 216);
+    font-family: link;
+}
+
+.header {
+    font-size: 1.35em;
 }
 
 @media screen and (min-width: 992px) {
