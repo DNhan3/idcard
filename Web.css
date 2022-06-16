@@ -4,25 +4,28 @@
 }
 
 html {
+    width:max-content;
+    height: 100%;
+
+    right: 0;
+    object-fit: cover;
     padding: 0;
     border: 0;
-    margin-bottom: -10%;
+    margin-right: -10%;
 }
 
 body {
     background-color: black;
 }
 
-span {
-    font-weight: bold;
-    font-size: 23px;
-    color: white;
+p{
+    text-align: center;
 }
 
-.center {
-    text-align: center;
-    margin-top: -81.1%;
-    background-color: black;
+span {
+    font-weight: bold;
+    font-size: 2em;
+    color: white;
 }
 
 .link {
@@ -55,28 +58,25 @@ span {
 
 #nhan {
     background-size: cover;
-    background-image: url("jpeg//476c8ef774acda1282b4b383efa7e359.png");
-    background-position-y: 0px;
+    background-image: url("jpeg//IMG_1511.jpg");
+    background-position-y: -50px;
     background-position-x: 0px;
 }
 
 #call {
-    background-image: url("jpeg//cd5010c77936156027d1c6ddcf7d3016.png");
     background-size: cover;
-}
-
-#email {
-    background-image: url("jpeg//f6cabd7b5073da89ca538f6646522f6d.png");
-    background-size: cover;
+    background-image: url("jpeg//IMG_3108.jpg");
+    background-position-y: 0px;
+    background-position-x: -20px;
 }
 
 .header-background {
-    height: 100%;
     width: 100%;
+    height: 100%;
     top: 0;
     left: 0;
     z-index: -20;
-    position: absolute fixed;
+    position: absolute;
     object-fit: cover;
 }
 
@@ -89,13 +89,23 @@ span {
     width: 50%;
 }
 
-a {
-    color: rgb(0, 173, 216);
-    font-family: link;
+.text {
+    color: rgb(107, 213, 255);
+    font-weight: bold;
+    font-size: 1.5em ;
 }
 
-.header {
-    font-size: 1.35em;
+.carousel .slide{
+    width: 100%;
+}
+
+.menu{
+    top: 55%;
+    left: 0;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    position: absolute;
 }
 
 @media screen and (min-width: 992px) {
